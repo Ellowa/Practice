@@ -46,6 +46,7 @@ void anograma(char* str1, int a1) {
 	}
 }
 int main() {
+	setlocale(LC_ALL, "Rus");
 	int a;
 	SetConsoleCP(1251); //Нужно для включения русского языка
 	SetConsoleOutputCP(1251);//Нужно для включения русского языка
