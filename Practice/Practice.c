@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include < Windows.h >//Нужно для включения русского языка
-#include <stdlib.h>//test
+#include <stdlib.h>
 #include <locale.h>
 #include <string.h>
 #include <conio.h>
