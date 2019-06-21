@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include < Windows.h >//Нужно для включения русского языка
+#include < Windows.h > //Нужно для включения русского языка
 #include <stdlib.h>
 #include <locale.h>
 #include <string.h>
@@ -49,7 +49,7 @@ int main() {
 	setlocale(LC_ALL, "Rus");
 	int a;
 	SetConsoleCP(1251); //Нужно для включения русского языка
-	SetConsoleOutputCP(1251);//Нужно для включения русского языка
+	SetConsoleOutputCP(1251); //Нужно для включения русского языка
 	char str2[100];
 	printf("Введите строку: \n");
 	gets(str2);
