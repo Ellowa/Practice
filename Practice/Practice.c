@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include < Windows.h > //Нужно для включения русского языка
+#include < Windows.h > //Нужно для включения русского языкa
 #include <stdlib.h>
-#include <locale.h>
+#include <locale.h>//привет
 #include <string.h>
 #include <conio.h>
 #include <time.h>
