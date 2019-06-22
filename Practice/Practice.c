@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include < Windows.h > //Нужно для включения русского языкa
+#include < Windows.h > //Нужно для включения русского языка
 #include <stdlib.h>
 #include <locale.h>
 #include <string.h>
@@ -51,10 +51,10 @@ int main() {
 	SetConsoleCP(1251); //Нужно для включения русского языка
 	SetConsoleOutputCP(1251); //Нужно для включения русского языка
 	char str2[100];
-	printf("Введите строку: \n");
+	printf("Input string: \n");
 	gets(str2);
 	a = strlen(str2);
-	printf("Анаграмма: ");
+	printf("Anagram: ");
 	anograma(str2, a);
 	getchar();
 	return 0;
