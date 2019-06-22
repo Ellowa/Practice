@@ -56,6 +56,7 @@ int main() {
 	a = strlen(str2);
 	printf("Anagram: ");
 	anograma(str2, a);
+	printf("\n");
 	getchar();
 	return 0;
 }
