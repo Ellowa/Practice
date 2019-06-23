@@ -1,3 +1,10 @@
+/**
+* @file   Practice.c
+* @author Елюхин Р.В., гр. 515
+* @date   23.06.2019
+*
+* Практика.
+*/
 #include <stdio.h>
 #include < Windows.h > //Нужно для включения русского языка
 #include <stdlib.h>
@@ -5,6 +12,11 @@
 #include <string.h>
 #include <conio.h>
 #include <time.h>
+/**
+* Создаёт из текста анаграмму(Буквы перемешиваются в пределах слова)
+*
+* @param *str1 - строка(которую ввёл пользователь), a1 - длина строки
+*/
 void anograma(char* str1, int a1) {
 
 	srand((unsigned)time(NULL));
